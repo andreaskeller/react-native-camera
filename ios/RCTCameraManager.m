@@ -47,8 +47,7 @@ RCT_EXPORT_VIEW_PROPERTY(torchMode, NSInteger);
                @"code138": AVMetadataObjectTypeCode128Code,
                @"pdf417": AVMetadataObjectTypePDF417Code,
                @"qr": AVMetadataObjectTypeQRCode,
-               @"aztec": AVMetadataObjectTypeAztecCode,
-               @"datamatrix": AVMetadataObjectTypeDataMatrixCode
+               @"aztec": AVMetadataObjectTypeAztecCode
                },
            @"Type": @{
                @"front": @(RCTCameraTypeFront),
@@ -94,8 +93,7 @@ RCT_EXPORT_VIEW_PROPERTY(torchMode, NSInteger);
     AVMetadataObjectTypeCode128Code,
     AVMetadataObjectTypePDF417Code,
     AVMetadataObjectTypeQRCode,
-    AVMetadataObjectTypeAztecCode,
-    AVMetadataObjectTypeDataMatrixCode
+    AVMetadataObjectTypeAztecCode
   ];
 }
 
